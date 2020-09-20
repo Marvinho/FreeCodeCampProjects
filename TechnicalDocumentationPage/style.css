@@ -1,0 +1,55 @@
+html {
+  font-size: 10px;
+  color: #4d4e53;
+}
+#navbar{
+  float: left;
+  background: #f1f1f1;
+  width: 15%;
+  height: 100%;
+  position: fixed;
+  border-right: solid;
+}
+nav header{
+  padding: 10px;
+  text-align: center;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+nav ul li{
+  font-size: 2rem;
+  width: 100%;
+  border-top: 1px solid;
+}
+nav ul li a{
+  display: block;
+  text-decoration: none;
+  color: #4d4e53;
+  padding: 10px;
+}
+nav ul li a:hover{
+  background: #555;
+  color: white;
+}
+header{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.main-section{
+  font-size: 2rem;
+}
+main{
+  text-align: left;
+  max-width: 65%;
+  margin: 0px auto;
+}
+body{
+  font-family: "Open Sans";
+}
+@media only screen and (max-width: 768px) {
+  main{
+    max-width: 25%;
+  }
