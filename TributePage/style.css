@@ -1,0 +1,28 @@
+body{
+	text-align: center;
+}
+#img-div {
+	background: white;
+	padding: 10px;
+}
+#title{
+  text-align: center;
+}
+#main{
+  text-align: center;
+	background: #eee;
+}
+#image{
+	max-width: 100%;
+	margin: auto;
+	display: block;
+}
+ul {
+  text-align: left;
+	line-height: 1.6;
+	margin: 0 auto 0 auto;
+	max-width: 550px;
+}
+li{
+  margin: 16px 0;
+}
