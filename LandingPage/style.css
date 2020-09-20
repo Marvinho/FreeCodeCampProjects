@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+#header{
+  align-items: center;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+#header-img{
+  width: 200px;
+}
+#nav-bar{
+  font-weight: 400;
+}
+#form{
+  display: flex;
+  flex-direction: column;
+}
+#iframe{}
+#email{}
+.nav-link{
+  padding: 10px;
+}
+body{
+  position: relative;
+}
+#features{
+  display: flex;
+  flex-direction: column;
+}
+#howitworks{
+  display: flex;
+  margin: 50px auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#mesage{
+  display: flex;
+}
+@media only screen and (max-width: 768px){
+  #message{
+    width: 50%;
+  }
+}
