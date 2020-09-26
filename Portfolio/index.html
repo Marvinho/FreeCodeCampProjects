@@ -1,19 +1,52 @@
-
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <html>
+
 <head>
 </head>
+
 <body>
-<navbar id="navbar">
-    <a href="#projects">Projects</a>
+<navbar class="navbar navbar-fixed-top" id="navbar">
+    <div class="container">
+        <div class="navbar-left navbar-brand">
+            <a href="#welcome-section"><i class="fas fa-hashtag"></i>MS27 </a>
+        </div>
+        <div class="navbar-right navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </navbar>
-<section id="welcome-section">
-    <h1> Welcome! </h1>
-</section>
+
+<header id="welcome-section">
+    <div class="container">
+        <h1> Hej, I am Marvin</h1>
+        <p> Software Engineer and Data Sciencetist</p>
+        <div class="contact-links">
+            <a href="https://github.com/Marvinho" target="_blank" id="white" class="btn btn-default" role="button"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#" id="white" class="btn btn-default" role="button"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="#" id="white" class="btn btn-default" role="button"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        </div>
+    </div>
+</header>
 <section id="projects">
+    <h1> These are some of my Projects </h1>
     <a class="project-tile" href="link">link</a>
 </section>
 <section id="contact">
-    <a id="profile-link" href="https://github.com/Marvinho"> GitHub </a>
+    <a id="profile-link" target="_blank" href="https://github.com/Marvinho"> GitHub </a>
 </section>
 </body>
+
 </html>
