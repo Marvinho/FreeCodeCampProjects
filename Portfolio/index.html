@@ -1,29 +1,28 @@
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <!DOCTYPE html>
 <html>
 
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body id="body">
-<navbar class="navbar navbar-fixed-top" id="navbar">
+<navbar class="navbar navbar-custom navbar-expand fixed-top" id="navbar">
     <div class="container">
-        <div class="nav navbar-left navbar-brand">
+        <div class="navbar-left navbar-brand">
             <a href="#"><i class="fas fa-hashtag"></i> MS27 </a>
         </div>
         <div class="navbar-right">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="#about">About</a>
+            <ul class="navbar-nav">
+                <li class="navbar-item">
+                    <a class="nav-link" href="#about">About</a>
                 </li>
-                <li>
-                    <a href="#projects">Projects</a>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
-                <li>
-                    <a href="#contact">Contact</a>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -36,11 +35,11 @@
         <p> Software Engineer and Data Sciencetist</p>
         <div class="contact-links">
             <ul class="list-inline list-unstyled">
-                <li>
+                <li class="list-inline-item">
                     <a href="https://github.com/Marvinho" target="_blank" id="contact-links" class="btn btn-default" role="button"><i class="fab fa-github"></i> GitHub</a></li>
-                <li>
+                <li class="list-inline-item">
                     <a href="https://www.instagram.com/marvinhooooooo/" target="_blank" id="contact-links" class="btn btn-default" role="button"><i class="fab fa-instagram"></i> Instagram</a></li>
-                <li>
+                <li class="list-inline-item">
                     <a href="https://www.linkedin.com/in/marvin-s-00997b1a4/" target="_blank" id="contact-links" class="btn btn-default" role="button"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
             </ul>
         </div>
@@ -48,8 +47,40 @@
 </header>
 <section id="projects">
     <h2> These are some of my Projects </h2>
-    <div class="container text-center">
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-5 project-tile">
+                <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project">
+                    <p class="project-title"><i class="fas fa-terminal"></i> Tribute Page</p>
+                    <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg" alt="project">
+                </a>
+            </div>
+            <div class="col-5 project-tile">
+                <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project">
+                    <p class="project-title"><i class="fas fa-terminal"></i> Tribute Page</p>
+                    <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg" alt="project">
+                </a>
+            </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-5 project-tile">
+                <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project">
+                    <p class="project-title">
+                        <i class="fas fa-terminal"></i> Tribute Page
+                    </p>
+                    <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg" alt="project">
+                </a>
+            </div>
+            <div class="col-5 project-tile">
+                <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project">
+                    <p class="project-title"><i class="fas fa-terminal"></i> Tribute Page</p>
+                    <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg" alt="project">
+                </a>
+            </div>
+        </div>
 </section>
-</body>
 
+
+
+</body>
 </html>
