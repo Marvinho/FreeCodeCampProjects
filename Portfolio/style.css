@@ -1,16 +1,17 @@
 #body{
   background-color: #323339;
 }
-.navbar-custom .navbar-item .nav-link:hover{
+.navbar-custom .nav-item .nav-link:hover{
   background: #874E4C;
   color: white;
 }
-navbar a{
+nav a{
   color: white;
   font-weight: 500;
-  font-size: 1vw;
+  font-size: 1.5vw;
 }
-
+nav button{
+color: white;}
 #welcome-section {
   display: flex;
   justify-content: center;
@@ -79,13 +80,7 @@ header{
 .project-img{
   max-height: 300px;
 }
-#collab{
-padding: 50px 0px;
-height: 20vw;
-color: white;
-text-align: center;
-text-size: 6vw;
-}
+
 #about{
 padding: 8vw 3vw;
 height: 45vw;
@@ -101,6 +96,20 @@ margin-bottom: 3vw;
 #about p{
 font-size: 1.5vw;
 font-weight: 500;
+}
+#collab{
+padding: 50px 0px;
+height: 20vw;
+color: white;
+text-align: center;
+text-size: 6vw;
+}
+#collab h2{
+font-size: 3vw;
+font-weight: 600;
+}
+#collab p{
+font-size: 1.5vw;
 }
 #collab a{
 text-decoration: underline;
